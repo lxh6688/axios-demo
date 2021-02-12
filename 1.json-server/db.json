@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "第二篇文章",
+      "author": "lxh"
+    },
+    {
+      "title": "axios创建的第三篇文章",
+      "author": "xxx",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "body": "通过axios添加评论",
+      "postId": 2,
+      "id": 2
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
